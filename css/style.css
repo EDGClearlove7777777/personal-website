@@ -493,3 +493,23 @@ strong {
     transform: scale(1.01);
 }
 
+
+/* Contact Info */
+.contact-info {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.email-link {
+    color: var(--text-light);
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.email-link:hover {
+    color: var(--primary-color);
+}
+
