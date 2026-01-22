@@ -1,0 +1,47 @@
+                                                                       Modular Classified Controlled Sounding Rocket
+                                                                                  Junqian Xiao, & Group of Sounding Rocket in SAA
+           Univ. of Electronic Science and Technology of China , School of Aeronautics and Astronautics , Department of Aeronautical and Astronautical Engineering , Chendu ,China
+
+
+                       Introduction                                                             Model of the Rocket Body                                                                     Results -Rocket Flight Simulation
+⚫ Sounding rocket, as the only field exploration tool in near space,      Model of the rocket body includes                                                                        The whole process of rocket launch, acceleration, flight, and separation is
+  has been widely used in space weather forecast, middle and                                                                                                                       simulated by computer to predict the trajectory, speed, altitude and other
+  upper atmosphere research and material processing under                                                                                                                          parameters of the actual launch of the rocket
+  microgravity conditions
+
+⚫ Market Background
+➢ Sounding rockets are developing towards the trend of small
+  carrying and commercialization, but they are in the early stage
+  of commercialization and the market scale is small
+➢ Most of the rocket models have fewer iterations, simple                                                    Fig. Open parachute structurel     Fig.Avionics system granary
+  product structure, high customization, poor versatility, and can
+  only meet a single scenario
+                                                                                                                                                                                                                    Fig. Rocket Flight Simulation
+
+⚫ The independent design of a strong versatility, cost-effective,
+  popular science, for the public model rocket has become the                                                                                                                                  Conclusions & Future Reaserch
+  design direction and research focus
+                                                                                                                                                                                    ◼ The model controlled sounding rocket can adjust its attitude and
+                                                                              Fig. Main body model           Fig. Separation mechanism          Fig. Controllable rear wing           release the parachute stably according to the demand of opening
+                                                                                                                                                                                      height
+    Methods – Subjects & Processing                                             Real-time Data Transmission from Sensors                                                            ◼ According to the attitude of the rocket, the ten-axis sensor
+⚫ Model building                                                         ⚫ The position, attitude, temperature, pitch angle, roll angle, yaw angle and other                          controls the tail of the rocket, so as to achieve a certain attitude
+➢ Modeling and iteration of rocket arrow body with solidworks              parameters of the rocket are obtained in real time through the sensor                                      correction. At the same time, if the attitude cannot be corrected
+  modeling software                                                                                                                                                                   (the deviation is about 55°), the head cone is controlled to pop
+⚫ Avionics system design                                                                                                                                                              out to complete the parachute opening
+➢ Drawing circuit boards according to the control requirements
+  for rocket navigation                                                                                                                                                             ◆ Optimize the design of the parachute opening structure
+⚫ Control algorithm designing                                            ⚫ Model building                                                                                             Design a more stable and simple parachute opening structure
+➢ Master the tail control rotation parameters through                    ➢ Modeling and iteration of rocket arrow body with solidworks        modeling software
+  aerodynamic analysis, write the control algorithm based on this        ⚫ Avionics system design                                                                                                          Awards & References
+  and download it in the circuit board
+                                                                                                                                                                                     ◼ Modular Classified Controlled Sounding Rocket won the UESTC
+                                                                                                                                                                                       College Students' Innovative Entrepreneurial Training Plan
+                                                                                                                                                                                       Program Yunhui Scholarship (Top 7 %)
+                                                                                                                                                                                     [1] ZHANG Shuliang, ZHU Jinlong, HE Yinsheng, et al.Launch device of uncontrolled sounding rocket
+                                                                                                                                                                                     [J].China Space Science and Technology,1982(05):6-15.
+                                                                                              Fig. Sensor data feedback                  Fig. pitch angle, roll angle, yaw angle
+                                                                                                                                                                                     [2] He Li. Research and Development of Production Equipment for PCB and Its Application in China [J].
+                                                                                                                                                                                     China Integrated Circuit, 2018,27 (07): 83-85.
+   Fig. Technical approach                 Fig. System core board
+
