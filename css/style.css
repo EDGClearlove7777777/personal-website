@@ -1,6 +1,7 @@
 /* CSS Variables */
 :root {
-    --primary-color: #003D7C; /* Academic Blue */
+    --primary-color: #003D7C;
+    /* Academic Blue */
     --text-color: #333333;
     --text-light: #666666;
     --bg-color: #ffffff;
@@ -8,7 +9,8 @@
     --border-color: #e0e0e0;
     --sidebar-width: 300px;
     --font-main: 'Inter', sans-serif;
-    --font-heading: 'Inter', sans-serif; /* Can switch to Playfair for more serif look if needed */
+    --font-heading: 'Inter', sans-serif;
+    /* Can switch to Playfair for more serif look if needed */
     --transition: all 0.3s ease;
 }
 
@@ -85,7 +87,13 @@ ul {
     font-size: 2.5rem;
     font-weight: 700;
     border: 4px solid white;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .profile-placeholder {
@@ -142,7 +150,8 @@ ul {
 
 .main-nav a:hover,
 .main-nav a.active {
-    background-color: rgba(0, 61, 124, 0.1); /* transparent primary */
+    background-color: rgba(0, 61, 124, 0.1);
+    /* transparent primary */
     color: var(--primary-color);
     text-decoration: none;
 }
@@ -265,7 +274,8 @@ strong {
     min-width: 60px;
     font-size: 1.5rem;
     font-weight: 700;
-    color: var(--bg-alt); /* Subtle year in background style if wanted, but stuck to clean for now */
+    color: var(--bg-alt);
+    /* Subtle year in background style if wanted, but stuck to clean for now */
     color: #cbd5e1;
     margin-right: 1.5rem;
     text-align: center;
@@ -328,7 +338,7 @@ strong {
 
 .project-card:hover {
     border-color: var(--primary-color);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     transform: translateY(-2px);
 }
 
@@ -392,18 +402,18 @@ strong {
         margin-left: 0;
         padding: 2rem;
     }
-    
+
     .sidebar {
         transform: translateX(-100%);
         transition: transform 0.3s ease;
         width: 280px;
-        box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+        box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
     }
-    
+
     .sidebar.active {
         transform: translateX(0);
     }
-    
+
     .mobile-header {
         display: flex;
     }
@@ -413,28 +423,28 @@ strong {
     .main-content {
         padding: 1.5rem;
     }
-    
+
     .news-list li {
         flex-direction: column;
     }
-    
+
     .news-list .date {
         margin-bottom: 0.2rem;
     }
-    
+
     .edu-item {
         flex-direction: column;
     }
-    
+
     .edu-date {
         margin-bottom: 0.2rem;
         font-size: 0.9rem;
     }
-    
+
     .publication-item {
         flex-direction: column;
     }
-    
+
     .pub-year {
         text-align: left;
         margin-bottom: 0.5rem;
