@@ -450,3 +450,23 @@ strong {
         margin-bottom: 0.5rem;
     }
 }
+/* Project Images */
+.project-images {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    overflow-x: auto;
+}
+
+.project-img {
+    max-height: 200px;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+.project-img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
