@@ -1,0 +1,125 @@
+Works
+of Fengxiaoxiao Li
+
+                     ◼ Self Introduction
+
+                     ◼ Academic Experience
+                       & Works
+Background
+   Fengxiaoxiao Li | 2003.8 | Anhui,China
+⚫ Educational Background
+   University of Electronic Science and Technology of China (UESTC)
+   • BEng in Aircraft Control and Information Engineering
+   • GPA: 3.74/4.0      08/2021 - present
+   • Rank: 19.04%       (4/21)
+
+   Academic Experience:
+   • All-terrain Foldable Multi-legged Exploration Robot (Supervisor: Prof. Zhengwei Wang)
+   • Modular Classified Controlled Sounding Rocket (Supervisor: Prof. Hui Li)
+   • Formation Control and Cooperative Reconnaissance Planning of Multi-UAV Systems (Surpervisor: Dr. Mengji Shi)
+
+⚫ Awards
+   UESTC Outstanding Student Scholarship in 2022 &2023
+   UESTC College Students' Innovative Entrepreneurial Training Plan Program Yunhui Scholarship (top 7%)
+                                  Multi-Legged All-Terrain Exploration Robot
+                                                             Fengxiaoxiao Li ,Chenyu Zhang, Guodi Xia, Qianqian Huang, Xiangyu Cheng
+                                                        Zhenwei Science and Technology Co. Ltd, University of Electronic Science and Technology of China, Chengdu, China
+
+
+
+
+              Abstract                                        Structure Module                                 Control Module                                    Visual Module                                                Result
+In current extraterrestrial exploration, particularly      The robot mainly consists of the body, the     The control algorithm, which is based on        The visual recognition section developed         The robot designed ultimately has a total
+in lunar and extreme terrain conditions on Earth,          intelligent interaction module, six legs and   Arduino UNO, includes the pace input of         based on Opencv enables the probe robot to       length of 74.85~80.85cm (including the legs),
+common wheeled robots encounter issues such as             the steering mechanism.                        the movement, and the robot's response to       have object recognition capabilities, which      a body length of 30.00cm (not including the
+high friction, challenging steering, and floating                                                         different scenarios                             can recognize and classify objects around it     legs), a total width of 25.00cm, and a height
+                                                           The main structure of the body is two
+dust. In response to these challenges, this paper                                                         (acceleration, deceleration, steering, emer-    through visual sensors and image processi-       of 33.50cm (not including the camera).
+                                                           parallel and opposite hollow flat plates
+proposes a multi-legged robot that reduces fric-                                                          gency stop). The driving power of the robot     ng algorithms. It can recognize specific ob-
+                                                           connected by a rotational axis. The body                                                                                                        Given the current advancement of multi-
+tion with the ground and achieves easy steering.                                                          is provided by two two-phase 57 stepping        jects and act accordingly as needed. This f-
+                                                           houses a power unit and a controller, and is                                                                                                    legged robots, this design holds substantial p-
+The design of the linkage mechanism was based                                                             motors, and the wiring mode of the step-        unction is of great significance in applicati-
+                                                           equipped with a microcontroller and a
+on arthropod’s movement patterns, which was                                                               ping motor has also become a problem to         ons such as search and rescue, patrol and        otential for further development and practical
+                                                           Bluetooth module on the surface for                                                                                                             implementation.
+modeled and simulated using Creo, controlled by                                                           be considered. In addition, the basic proc-     safety monitoring.
+                                                           interaction. A camera is mounted on the
+Arduino, and integrated with a vision module                                                              edure requires that the external keys can
+                                                           bracket extending from the top of the body.
+developed through Python's OpenCV platform                                                                control the positive reversal of the motor,
+                                                           The leg mechanism is designed as six
+and esp32cam kit. Ultimately, a remotely ope-                                                             accelerate the deceleration and stop. In the
+                                                           mirrored parts symmetrically distributed on
+rated multi-legged exploration robot with image                                                           wiring of the controller, this design adopts
+                                                           both sides of the body, utilizing a linkage
+feedback was designed. This design offers a nov-                                                          the common cathode wiring method.
+                                                           mechanism (specifically, a six-bar linkage).
+el approach for exploration equipment under sp-
+                                                                                                          During motion, two motors control the
+ecial terrain conditions and paves the way for un-         Due to the superior performance of the
+                                                                                                          movement of both groups of legs simultan-
+manned exploration in a wider range of scenarios.          legged structure, the robot can naturally
+                                                                                                          eously. And if it were to shift the direction
+                                                           overcome obstacles during travel. By
+                                                                                                          of the motion, the robot merely have to         Fig. ESP32-CAM Module wiring diagram
+                                                           repeating this cycle, the robot can achieve                                                                                                     Fig. Overall robot structure
+          Composition
+                                                                                                          manipulate the steering motor to rotate to a
+                                                           forward and backward movement.
+                                                                                                          certain angle.
+
+
+
+
+                                                          Fig. Detector partial structure                 Fig. 57 Stepper motor and TB6600 drive          Fig. Partial code of recognition                 Fig. Expected application scenario
+                                                                       Modular Classified Controlled Sounding Rocket
+                                                                                Fengxiaoxiao LI, & Group of Sounding Rocket in SAA
+           Univ. of Electronic Science and Technology of China , School of Aeronautics and Astronautics , Department of Aeronautical and Astronautical Engineering , Chendu ,China
+
+
+                       Introduction                                                             Model of the Rocket Body                                                                     Results -Rocket Flight Simulation
+⚫ Sounding rocket, as the only field exploration tool in near space,      Model of the rocket body includes                                                                        The whole process of rocket launch, acceleration, flight, and separation is
+  has been widely used in space weather forecast, middle and                                                                                                                       simulated by computer to predict the trajectory, speed, altitude and other
+  upper atmosphere research and material processing under                                                                                                                          parameters of the actual launch of the rocket
+  microgravity conditions
+
+⚫ Market Background
+➢ Sounding rockets are developing towards the trend of small
+  carrying and commercialization, but they are in the early stage
+  of commercialization and the market scale is small
+➢ Most of the rocket models have fewer iterations, simple                                                    Fig. Open parachute structurel     Fig.Avionics system granary
+  product structure, high customization, poor versatility, and can
+  only meet a single scenario
+                                                                                                                                                                                                                    Fig. Rocket Flight Simulation
+
+⚫ The independent design of a strong versatility, cost-effective,
+  popular science, for the public model rocket has become the                                                                                                                                  Conclusions & Future Reaserch
+  design direction and research focus
+                                                                                                                                                                                    ◼ The model controlled sounding rocket can adjust its attitude and
+                                                                              Fig. Main body model           Fig. Separation mechanism          Fig. Controllable rear wing           release the parachute stably according to the demand of opening
+                                                                                                                                                                                      height
+    Methods – Subjects & Processing                                             Real-time Data Transmission from Sensors                                                            ◼ According to the attitude of the rocket, the ten-axis sensor
+⚫ Model building                                                         ⚫ The position, attitude, temperature, pitch angle, roll angle, yaw angle and other                          controls the tail of the rocket, so as to achieve a certain attitude
+➢ Modeling and iteration of rocket arrow body with solidworks              parameters of the rocket are obtained in real time through the sensor                                      correction. At the same time, if the attitude cannot be corrected
+  modeling software                                                                                                                                                                   (the deviation is about 55°), the head cone is controlled to pop
+⚫ Avionics system design                                                                                                                                                              out to complete the parachute opening
+➢ Drawing circuit boards according to the control requirements
+  for rocket navigation                                                                                                                                                             ◆ Optimize the design of the parachute opening structure
+⚫ Control algorithm designing                                            ⚫ Model building                                                                                             Design a more stable and simple parachute opening structure
+➢ Master the tail control rotation parameters through                    ➢ Modeling and iteration of rocket arrow body with solidworks        modeling software
+  aerodynamic analysis, write the control algorithm based on this        ⚫ Avionics system design                                                                                                          Awards & References
+  and download it in the circuit board
+                                                                                                                                                                                     ◼ Modular Classified Controlled Sounding Rocket won the UESTC
+                                                                                                                                                                                       College Students' Innovative Entrepreneurial Training Plan
+                                                                                                                                                                                       Program Yunhui Scholarship (Top 7 %)
+                                                                                                                                                                                     [1] ZHANG Shuliang, ZHU Jinlong, HE Yinsheng, et al.Launch device of uncontrolled sounding rocket
+                                                                                                                                                                                     [J].China Space Science and Technology,1982(05):6-15.
+                                                                                              Fig. Sensor data feedback                  Fig. Pitch angle, roll angle, yaw angle
+                                                                                                                                                                                     [2] He Li. Research and Development of Production Equipment for PCB and Its Application in China [J].
+                                                                                                                                                                                     China Integrated Circuit, 2018,27 (07): 83-85.
+   Fig. Technical approach                 Fig. System core board
+This summer
+Let's run towards dreams together!
+
