@@ -450,6 +450,7 @@ strong {
         margin-bottom: 0.5rem;
     }
 }
+
 /* Project Images */
 .project-images {
     display: flex;
@@ -467,7 +468,7 @@ strong {
 
 .project-img:hover {
     transform: scale(1.02);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -483,9 +484,9 @@ strong {
     object-fit: contain;
     border-radius: 6px;
     border: 1px solid var(--border-color);
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
     background-color: #f8f9fa;
-        cursor: pointer;
+    cursor: pointer;
     transition: transform 0.3s ease;
 }
 
@@ -516,8 +517,8 @@ strong {
 
 /* Education Logos */
 .edu-logo {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     margin-right: 1.5rem;
     flex-shrink: 0;
     display: flex;
@@ -530,4 +531,3 @@ strong {
     max-height: 100%;
     object-fit: contain;
 }
-
