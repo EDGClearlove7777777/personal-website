@@ -556,3 +556,21 @@ strong {
     transform: scale(1.05);
 }
 
+/* Language Toggle Button */
+.btn-lang {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+    color: var(--primary-color);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.btn-lang:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
