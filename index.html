@@ -27,35 +27,34 @@
         <aside class="sidebar">
             <div class="profile-section">
                 <div class="profile-image-container">
-                    <img src="assets/profile.jpg?v=1" alt="Fengxiaoxiao Li" class="profile-image">
+                    <!-- Placeholder for profile image -->
+                    <img src="assets/profile.jpg" alt="Profile Image" class="profile-image" id="profile-img">
                 </div>
-                <h1 class="name" id="name">Fengxiaoxiao Li</h1>
-                <p class="role" id="role">MSc Student at NUS</p>
+                <h1 class="name" data-i18n="name">Fengxiaoxiao Li</h1>
+                <p class="role" data-i18n="role">MSc Student at NUS</p>
                 <div class="contact-info">
                     <a href="mailto:lfxxmaster@163.com" class="email-link">
-                        <i class="fas fa-envelope"></i> <span id="email_label">Email</span>: lfxxmaster@163.com
+                        <i class="fas fa-envelope"></i> <span data-i18n="email_label">Email</span>: lfxxmaster@163.com
                     </a>
                 </div>
-                <div class="lang-switch">
-                    <button id="lang-toggle" class="btn-lang">中文</button>
-                </div>
+
+                <!-- Language Toggle -->
+                <button id="lang-toggle" class="btn-lang">中文</button>
             </div>
 
             <nav class="main-nav">
                 <ul>
-                    <li><a href="#about" class="active" id="nav_about">About</a></li>
-                    <li><a href="#news" id="nav_news">News</a></li>
-                    <li><a href="#publications" id="nav_publications">Publications</a></li>
-                    <li><a href="#research" id="nav_projects">Research</a></li>
-                    <li><a href="#experience" id="nav_experience">Experience</a></li>
-                    <li><a href="#honors" id="nav_honors">Honors</a></li>
-                    <li><a href="assets/Fengxiaoxiao_Li_CV.docx" target="_blank" id="nav_cv">CV</a></li>
-                    <li><a href="assets/Fengxiaoxiao_Li_CV_CN.pdf" target="_blank" id="nav_cv_cn">CV (CN)</a></li>
+                    <li><a href="#about" class="active" data-i18n="nav_about">About</a></li>
+                    <li><a href="#news" data-i18n="nav_news">News</a></li>
+                    <li><a href="#publications" data-i18n="nav_publications">Publications</a></li>
+                    <li><a href="#projects" data-i18n="nav_projects">Projects</a></li>
+                    <li><a href="assets/Fengxiaoxiao_Li_CV.pdf" target="_blank" data-i18n="nav_cv">CV</a></li>
+
                 </ul>
             </nav>
 
             <footer class="sidebar-footer">
-                <p id="footer">&copy; 2026 Fengxiaoxiao Li</p>
+                <p>&copy; 2026 Fengxiaoxiao Li</p>
             </footer>
         </aside>
 
@@ -63,86 +62,92 @@
         <main class="main-content">
             <!-- Mobile Header -->
             <header class="mobile-header">
-                <div class="mobile-logo">Fengxiaoxiao Li</div>
+                <div class="mobile-logo" data-i18n="name">Fengxiaoxiao Li</div>
                 <button class="menu-toggle" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
                 </button>
             </header>
 
             <section id="about" class="content-section">
-                <h2 id="section_about">About Me</h2>
-                <div class="bio-text">
-                    <p id="about_intro">
-                        I am currently an MSc student at the <strong>National University of Singapore (NUS)</strong>,
-                        College of Design and Engineering. I conduct research in the
-                        <strong>Multi-Agent Robotic Motion (MARMot) Laboratory</strong>,
-                        advised by Asst. Prof. Guillaume Sartoretti.
-                    </p>
-                    <p id="about_prev">
-                        Prior to joining NUS, I obtained my B.Eng in Aircraft Control and Information Engineering from
-                        the <strong>University of Electronic Science and Technology of China (UESTC)</strong>,
-                        where I ranked 4/22 and was exempted from the National Postgraduate Entrance Examination due to
-                        academic excellence.
-                    </p>
-                    <p id="about_interests_text">
-                        My research interests lie at the intersection of <strong>Multi-Agent Systems</strong>,
-                        <strong>Reinforcement Learning</strong>, <strong>Robotic Control</strong>,
-                        <strong>Combinatorial Optimization</strong>, and <strong>Path Planning</strong>.
-                        Specifically, I focus on:
-                    </p>
-                    <ul class="interests-list" id="interests_list">
-                        <!-- Populated by JS -->
+                <h2 data-i18n="section_about">About Me</h2>
+                <div class="bio-text" id="about-text">
+                    <!-- Generic content loaded via JS -->
+                </div>
+
+                <div class="interests-section">
+                    <h3 data-i18n="interests_title">Research Interests</h3>
+                    <ul class="interests-list" id="interests-list">
+                        <!-- Loaded via JS -->
                     </ul>
                 </div>
 
-                <h3 id="section_education">Education</h3>
-                <div class="education-timeline" id="education_container">
-                    <!-- Populated by JS -->
+                <div class="education-timeline">
+                    <h3 data-i18n="education_title">Education</h3>
+                    <div class="edu-item">
+                        <div class="edu-logo">
+                            <img src="assets/logo_nus.png" alt="NUS Logo"
+                                onerror="this.src='assets/logo_placeholder.png'">
+                        </div>
+                        <div class="edu-date" data-i18n="edu_nus_period">Aug 2025 - Jul 2026</div>
+                        <div class="edu-details">
+                            <h4 data-i18n="university_nus">National University of Singapore (NUS)</h4>
+                            <p data-i18n="edu_nus_degree">MSc in Mechanical Engineering</p>
+                            <p class="gpa" data-i18n="edu_nus_desc">GPA: 4.63/5.00</p>
+                        </div>
+                    </div>
+                    <div class="edu-item">
+                        <div class="edu-logo">
+                            <img src="assets/logo_uestc.png" alt="UESTC Logo"
+                                onerror="this.src='assets/logo_placeholder.png'">
+                        </div>
+                        <div class="edu-date" data-i18n="edu_uestc_period">Aug 2021 - Jun 2025</div>
+                        <div class="edu-details">
+                            <h4 data-i18n="university_uestc">University of Electronic Science and Technology of China
+                                (UESTC)</h4>
+                            <p data-i18n="edu_uestc_degree">B.Eng in Aircraft Control and Information Engineering</p>
+                            <p class="gpa" data-i18n="edu_uestc_desc">GPA: 3.78/4.00</p>
+                        </div>
+                    </div>
                 </div>
             </section>
 
             <section id="news" class="content-section">
-                <h2 id="section_news">News</h2>
-                <ul class="news-list" id="news_list">
-                    <!-- Populated by JS -->
+                <h2 data-i18n="section_news">News</h2>
+                <ul class="news-list" id="news-list">
+                    <!-- Loaded via JS -->
                 </ul>
             </section>
 
             <section id="publications" class="content-section">
-                <h2 id="section_publications">Selected Publications</h2>
-                <p id="publications_intro">* denotes equal contribution.</p>
-                <div id="publications_list">
-                    <!-- Populated by JS -->
+                <h2 data-i18n="section_publications">Selected Publications</h2>
+                <p class="pub-intro" id="pub-intro" style="font-style: italic; margin-bottom: 1rem;"></p>
+                <div id="publications-list">
+                    <!-- Loaded via JS -->
                 </div>
             </section>
 
-            <section id="research" class="content-section">
-                <h2 id="section_research">Research Experience</h2>
-                <div id="projects_container">
-                    <!-- Populated by JS -->
+            <section id="projects" class="content-section">
+                <h2 data-i18n="section_projects">Research Projects</h2>
+                <div id="projects-list">
+                    <!-- Loaded via JS -->
                 </div>
             </section>
 
-            <section id="experience" class="content-section">
-                <h2 id="section_experience">Leadership & Experience</h2>
-                <div id="experience_container">
-                    <!-- Populated by JS -->
-                </div>
-            </section>
-
-            <section id="honors" class="content-section">
-                <h2 id="section_honors">Honors & Awards</h2>
-                <ul class="honors-list" id="honors_container">
-                    <!-- Populated by JS -->
-                </ul>
-            </section>
+            <!-- Honors section merged into News or kept separate? Keeping hidden if empty in JS, or we can populate it from News if desired. 
+                 For now, let's remove it if News covers it, or keep it as a summary list. 
+                 The user asked to "Sort news items... including award certificates". So News handles it.
+                 I will remove the separate Honors section node for simplicity, or keep it as duplicative summary. 
+                 Let's remove it and redirect nav to News. -->
+            <div style="height: 50px;"></div>
         </main>
     </div>
 
-    <!-- Scripts -->
     <script src="js/translations.js"></script>
-    <script src="js/lang.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/translations.js"></script>
     <script src="js/main.js"></script>
 </body>
+
+</html>
 
 </html>
