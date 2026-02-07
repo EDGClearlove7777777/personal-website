@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fengxiaoxiao Li</title>
+    <meta name="description"
+        content="Academic personal website of Fengxiaoxiao Li, MSc student at NUS, focusing on Multi-Agent Robotics and Learning-based Control.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="layout-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="profile-section">
+                <div class="profile-image-container">
+                    <!-- Placeholder for profile image -->
+                    <img src="assets/profile.jpg" alt="Profile Image" class="profile-image" id="profile-img">
+                </div>
+                <h1 class="name" data-i18n="name">Fengxiaoxiao Li</h1>
+                <p class="role" data-i18n="role">MSc Student at NUS</p>
+                <div class="contact-info">
+                    <a href="mailto:lfxxmaster@163.com" class="email-link">
+                        <i class="fas fa-envelope"></i> <span data-i18n="email_label">Email</span>: lfxxmaster@163.com
+                    </a>
+                </div>
+
+                <!-- Language Toggle -->
+                <button id="lang-toggle" class="btn-lang">中文</button>
+            </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#about" class="active" data-i18n="nav_about">About</a></li>
+                    <li><a href="#news" data-i18n="nav_news">News</a></li>
+                    <li><a href="#publications" data-i18n="nav_publications">Publications</a></li>
+                    <li><a href="#projects" data-i18n="nav_projects">Projects</a></li>
+                    <li><a href="#honors" data-i18n="nav_honors">Honors</a></li>
+                    <!-- Merged into News/Awards usually, but keeping separate if desired -->
+                    <li><a href="docs/extracted_text/resume_docx.md" target="_blank" data-i18n="nav_cv">CV</a></li>
+                </ul>
+            </nav>
+
+            <footer class="sidebar-footer">
+                <p>&copy; 2026 Fengxiaoxiao Li</p>
+            </footer>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Mobile Header -->
+            <header class="mobile-header">
+                <div class="mobile-logo" data-i18n="name">Fengxiaoxiao Li</div>
+                <button class="menu-toggle" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </header>
+
+            <section id="about" class="content-section">
+                <h2 data-i18n="section_about">About Me</h2>
+                <div class="bio-text" id="about-text">
+                    <!-- Generic content loaded via JS -->
+                </div>
+
+                <div class="interests-section">
+                    <h3 data-i18n="interests_title">Research Interests</h3>
+                    <ul class="interests-list" id="interests-list">
+                        <!-- Loaded via JS -->
+                    </ul>
+                </div>
+
+                <div class="education-timeline">
+                    <h3 data-i18n="education_title">Education</h3>
+                    <div class="edu-item">
+                        <div class="edu-logo">
+                            <img src="assets/logo_nus.png" alt="NUS Logo"
+                                onerror="this.src='assets/logo_placeholder.png'">
+                        </div>
+                        <div class="edu-date" data-i18n="edu_nus_period">Aug 2025 - Jul 2026</div>
+                        <div class="edu-details">
+                            <h4 data-i18n="university_nus">National University of Singapore (NUS)</h4>
+                            <p data-i18n="edu_nus_degree">MSc in Mechanical Engineering</p>
+                            <p class="gpa" data-i18n="edu_nus_desc">GPA: 4.63/5.00</p>
+                        </div>
+                    </div>
+                    <div class="edu-item">
+                        <div class="edu-logo">
+                            <img src="assets/logo_uestc.png" alt="UESTC Logo"
+                                onerror="this.src='assets/logo_placeholder.png'">
+                        </div>
+                        <div class="edu-date" data-i18n="edu_uestc_period">Aug 2021 - Jun 2025</div>
+                        <div class="edu-details">
+                            <h4 data-i18n="university_uestc">University of Electronic Science and Technology of China
+                                (UESTC)</h4>
+                            <p data-i18n="edu_uestc_degree">B.Eng in Aircraft Control and Information Engineering</p>
+                            <p class="gpa" data-i18n="edu_uestc_desc">GPA: 3.78/4.00</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="news" class="content-section">
+                <h2 data-i18n="section_news">News</h2>
+                <ul class="news-list" id="news-list">
+                    <!-- Loaded via JS -->
+                </ul>
+            </section>
+
+            <section id="publications" class="content-section">
+                <h2 data-i18n="section_publications">Selected Publications</h2>
+                <p class="pub-intro" id="pub-intro" style="font-style: italic; margin-bottom: 1rem;"></p>
+                <div id="publications-list">
+                    <!-- Loaded via JS -->
+                </div>
+            </section>
+
+            <section id="projects" class="content-section">
+                <h2 data-i18n="section_projects">Research Projects</h2>
+                <div id="projects-list">
+                    <!-- Loaded via JS -->
+                </div>
+            </section>
+
+            <!-- Honors section merged into News or kept separate? Keeping hidden if empty in JS, or we can populate it from News if desired. 
+                 For now, let's remove it if News covers it, or keep it as a summary list. 
+                 The user asked to "Sort news items... including award certificates". So News handles it.
+                 I will remove the separate Honors section node for simplicity, or keep it as duplicative summary. 
+                 Let's remove it and redirect nav to News. -->
+            <div style="height: 50px;"></div>
+        </main>
+    </div>
+
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
