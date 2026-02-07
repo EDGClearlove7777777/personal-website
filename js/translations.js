@@ -9,7 +9,6 @@ const translations = {
         nav_news: "News",
         nav_publications: "Publications",
         nav_projects: "Projects",
-        nav_skills: "Skills",
         nav_honors: "Honors",
         nav_cv: "Curriculum Vitae",
 
@@ -65,28 +64,28 @@ const translations = {
                 period: "Aug 2025 - Present",
                 desc: "Advisor: Asst. Prof. Guillaume Sartoretti. Proposed a conditional encoder and decoupled dual decoder to achieve zero-shot generalization for multi-objective multi-traveling salesperson problems.",
                 tags: ["Deep Learning", "Multi-Agent", "Optimization"],
-                image: "assets/uav_award.png" // Using award as placeholder or if relevant
+                image: "assets/images/project_camo.jpg" // Placeholder
             },
             {
                 title: "Formation Tracking with Neural Event-Triggered Control",
                 period: "May 2024 - Jun 2025",
                 desc: "Advisor: Asst. Prof. Zhiqiang Li. Designed a prescribed-time formation tracking protocol for second-order multi-agent systems using RBFNN and event-triggered mechanisms.",
                 tags: ["Control Theory", "Matlab/Simulink", "Multi-Agent"],
-                image: "assets/project_formation_1.png"
+                image: "assets/images/project_formation.jpg"
             },
             {
                 title: "Pneumonia Detection from Chest X-ray",
                 period: "Jul 2024 - Oct 2024",
                 desc: "NTU Business AI-Lab. Built a CNN model using TensorFlow to classify pneumonia images, achieving higher recall through imbalance handling.",
                 tags: ["Computer Vision", "TensorFlow", "Medical AI"],
-                image: "assets/thesis_award_cert.jpg" // Using thesis award as substitute
+                image: "assets/images/project_pneumonia.jpg"
             },
             {
                 title: "All-Terrain Foldable Multi-Legged Exploration Robot",
                 period: "Mar 2023 - Jul 2023",
                 desc: "Advisor: Prof. Zhenwei Wang. Designed a hexapod robot with triangular gait for uneven terrain. Implemented object recognition on ESP32-CAM.",
                 tags: ["Robotics", "Embedded Systems", "Hardware"],
-                image: "assets/hexapod_1.jpg"
+                image: "assets/images/project_hexapod.jpg"
             }
         ],
 
@@ -94,24 +93,6 @@ const translations = {
         publications_intro: "* denotes equal contribution.",
         publications_list: [
             "<strong>Fengxiaoxiao Li*</strong>, Xiao Mao*, Yifeng Zhang, Yi Li, et al. \"CAMO: A Scalable Neural Solver for the Multi-objective MTSP.\" <em>Submitted to 15th International Conference on Swarm Intelligence (ANTS)</em>, 2026."
-        ],
-
-        section_honors: "Honors & Awards",
-        honors_list: [
-            "<strong>First Prize</strong>, National Graduation Design Competition for UAV Engineering (Jun 2025)",
-            "<strong>Second Prize</strong>, National Undergraduate Thesis Competition (Aeronautics & Astronautics) (May 2025)",
-            "<strong>UESTC Outstanding Student Scholarship</strong> (2022--2024) and Yunhui Specialized Scholarship (Top 5%) (Oct 2023)",
-            "<strong>Distinction Winner</strong>, NTU AI Lab Summer Research Program (Top 2%) (Jul 2024)",
-            "<strong>Top 15.6% globally</strong>, IEEE Xtreme 18.0 Programming Competition (Oct 2024)",
-            "<strong>Graduate Awards</strong>: Innovation/Endeavor/Contribution (Selected 1/23) (Jun 2025)"
-        ],
-
-        section_skills: "Technical Skills",
-        skills_categories: [
-            { name: "Programming", items: "Python, MATLAB, LaTeX, Markdown" },
-            { name: "Control & Learning", items: "RL (DQN, PPO, SAC, DDPG, A3C, MADDPG), Multi-Agent Systems, Optimization, Event-Triggered Control" },
-            { name: "Tools", items: "MATLAB/Simulink, SolidWorks, Arduino, Altium, Keil uVision5, Git, Jupyter, PyCharm, VS Code, TensorFlow, PyTorch, Scikit-Learn, OpenCV" },
-            { name: "Interests", items: "Table tennis, football, swimming, running, reading (AI/robotics/sci-fi), soulslike games" }
         ],
 
         btn_lang_en: "English",
@@ -127,7 +108,6 @@ const translations = {
         nav_news: "最新动态",
         nav_publications: "发表论文",
         nav_projects: "科研项目",
-        nav_skills: "专业技能",
         nav_honors: "荣誉奖项",
         nav_cv: "简历",
 
@@ -183,28 +163,28 @@ const translations = {
                 period: "2025.08 - 至今",
                 desc: "指导老师: Guillaume Sartoretti. 提出条件编码器和解耦双解码器，实现多目标多旅行商问题的零样本泛化。",
                 tags: ["深度学习", "多智能体", "优化算法"],
-                image: "assets/uav_award.png"
+                image: "assets/images/project_camo.jpg"
             },
             {
                 title: "基于神经事件触发控制的编队跟踪",
                 period: "2024.05 - 2025.06",
                 desc: "指导老师: 李志强. 设计了针对二阶多智能体系统的预设时间编队跟踪协议，结合RBFNN和事件触发机制。",
                 tags: ["控制理论", "Matlab/Simulink", "多智能体"],
-                image: "assets/project_formation_1.png"
+                image: "assets/images/project_formation.jpg"
             },
             {
                 title: "基于深度学习的肺炎医学图像分类",
                 period: "2024.07 - 2024.10",
                 desc: "NTU Business AI-Lab. 搭建CNN模型处理肺炎X光图像，通过不完全采样解决类不平衡问题，提高召回率。",
                 tags: ["计算机视觉", "TensorFlow", "医疗AI"],
-                image: "assets/thesis_award_cert.jpg"
+                image: "assets/images/project_pneumonia.jpg"
             },
             {
                 title: "全地形可折叠多足探测机器人",
                 period: "2023.03 - 2023.07",
                 desc: "指导老师: 王祯伟. 设计六足机器人及三角步态以适应非平坦地形。基于ESP32-CAM实现目标识别。",
                 tags: ["机器人", "嵌入式", "硬件设计"],
-                image: "assets/hexapod_1.jpg"
+                image: "assets/images/project_hexapod.jpg"
             }
         ],
 
@@ -212,24 +192,6 @@ const translations = {
         publications_intro: "* 代表共同一作.",
         publications_list: [
             "<strong>Fengxiaoxiao Li*</strong>, Xiao Mao*, Yifeng Zhang, Yi Li, et al. \"CAMO: A Scalable Neural Solver for the Multi-objective MTSP.\" <em>Submitted to 15th International Conference on Swarm Intelligence (ANTS)</em>, 2026."
-        ],
-
-        section_honors: "荣誉奖项",
-        honors_list: [
-            "<strong>一等奖</strong>, 第二届全国高等学校无人机类专业毕业设计大赛 (2025.06)",
-            "<strong>二等奖</strong>, 第六届全国高等学校航空航天类专业本科毕业设计大赛 (2025.05)",
-            "<strong>电子科技大学优秀学生奖学金</strong> (2022--2024) 及云汇专项奖学金 (Top 5%) (2023.10)",
-            "<strong>Distinction Winner</strong>, NTU AI Lab 暑期科研项目 (Top 2%) (2024.07)",
-            "<strong>全球前 15.6%</strong>, 第18届 IEEE Xtreme 极限编程大赛 (2024.10)",
-            "<strong>优秀毕业生荣誉</strong>: 创新/奋斗/贡献奖 (1/23) (2025.06)"
-        ],
-
-        section_skills: "技术技能",
-        skills_categories: [
-            { name: "编程语言", items: "Python, MATLAB, LaTeX, Markdown" },
-            { name: "控制与学习", items: "强化学习 (DQN, PPO, SAC, DDPG, A3C, MADDPG), 多智能体系统, 优化算法, 事件触发控制" },
-            { name: "工具框架", items: "MATLAB/Simulink, SolidWorks, Arduino, Altium, Keil uVision5, Git, Jupyter, PyCharm, VS Code, TensorFlow, PyTorch, Scikit-Learn, OpenCV" },
-            { name: "兴趣爱好", items: "乒乓球, 足球, 游泳, 跑步, 阅读 (AI/机器人/科幻), 魂类游戏" }
         ],
 
         btn_lang_en: "English",
