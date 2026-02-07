@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const t = translations[lang];
 
         // Render News
-        const newsContainer = document.querySelector('#news .news-list'); // Assuming structure
+        const newsContainer = document.getElementById('news-list');
         if (newsContainer && t.news_items) {
             newsContainer.innerHTML = t.news_items.map(item => `
                 <div class="news-item">
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // Render Projects
-        const projectsContainer = document.querySelector('#projects .project-grid'); // Assuming structure
+        const projectsContainer = document.getElementById('projects-list');
         if (projectsContainer && t.projects_items) {
             projectsContainer.innerHTML = t.projects_items.map(item => `
                 <div class="project-card">
@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // Render Publications
-        const pubContainer = document.querySelector('#publications .publication-list');
+        const pubContainer = document.getElementById('publications-list');
         if (pubContainer && t.publications_list) {
             pubContainer.innerHTML = t.publications_intro ? `<p class="pub-intro">${t.publications_intro}</p>` : '';
             pubContainer.innerHTML += `<ul>` + t.publications_list.map(item => `
@@ -90,6 +90,25 @@ document.addEventListener('DOMContentLoaded', () => {
         const interestsContainer = document.querySelector('.interests-list'); // Assuming class
         if (interestsContainer && t.interests_list) {
             interestsContainer.innerHTML = t.interests_list.map(item => `<li>${item}</li>`).join('');
+        }
+
+        // Render Honors
+        const honorsContainer = document.getElementById('honors-list');
+        if (honorsContainer && t.honors_list) {
+            honorsContainer.innerHTML = `<ul>` + t.honors_list.map(item => `
+                <li>${item}</li>
+            `).join('') + `</ul>`;
+        }
+
+        // Render Skills
+        const skillsContainer = document.getElementById('skills-list');
+        if (skillsContainer && t.skills_categories) {
+            skillsContainer.innerHTML = t.skills_categories.map(cat => `
+                <div class="skill-category">
+                    <h3>${cat.name}</h3>
+                    <p>${cat.items}</p>
+                </div>
+            `).join('');
         }
 
         // Render Title for sections if they have data-i18n, handled by generic updater

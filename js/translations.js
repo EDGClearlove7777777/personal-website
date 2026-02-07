@@ -9,6 +9,7 @@ const translations = {
         nav_news: "News",
         nav_publications: "Publications",
         nav_projects: "Projects",
+        nav_skills: "Skills",
         nav_honors: "Honors",
         nav_cv: "Curriculum Vitae",
 
@@ -95,6 +96,24 @@ const translations = {
             "<strong>Fengxiaoxiao Li*</strong>, Xiao Mao*, Yifeng Zhang, Yi Li, et al. \"CAMO: A Scalable Neural Solver for the Multi-objective MTSP.\" <em>Submitted to 15th International Conference on Swarm Intelligence (ANTS)</em>, 2026."
         ],
 
+        section_honors: "Honors & Awards",
+        honors_list: [
+            "<strong>First Prize</strong>, National Graduation Design Competition for UAV Engineering (Jun 2025)",
+            "<strong>Second Prize</strong>, National Undergraduate Thesis Competition (Aeronautics & Astronautics) (May 2025)",
+            "<strong>UESTC Outstanding Student Scholarship</strong> (2022--2024) and Yunhui Specialized Scholarship (Top 5%) (Oct 2023)",
+            "<strong>Distinction Winner</strong>, NTU AI Lab Summer Research Program (Top 2%) (Jul 2024)",
+            "<strong>Top 15.6% globally</strong>, IEEE Xtreme 18.0 Programming Competition (Oct 2024)",
+            "<strong>Graduate Awards</strong>: Innovation/Endeavor/Contribution (Selected 1/23) (Jun 2025)"
+        ],
+
+        section_skills: "Technical Skills",
+        skills_categories: [
+            { name: "Programming", items: "Python, MATLAB, LaTeX, Markdown" },
+            { name: "Control & Learning", items: "RL (DQN, PPO, SAC, DDPG, A3C, MADDPG), Multi-Agent Systems, Optimization, Event-Triggered Control" },
+            { name: "Tools", items: "MATLAB/Simulink, SolidWorks, Arduino, Altium, Keil uVision5, Git, Jupyter, PyCharm, VS Code, TensorFlow, PyTorch, Scikit-Learn, OpenCV" },
+            { name: "Interests", items: "Table tennis, football, swimming, running, reading (AI/robotics/sci-fi), soulslike games" }
+        ],
+
         btn_lang_en: "English",
         btn_lang_cn: "中文"
     },
@@ -108,6 +127,7 @@ const translations = {
         nav_news: "最新动态",
         nav_publications: "发表论文",
         nav_projects: "科研项目",
+        nav_skills: "专业技能",
         nav_honors: "荣誉奖项",
         nav_cv: "简历",
 
@@ -192,6 +212,24 @@ const translations = {
         publications_intro: "* 代表共同一作.",
         publications_list: [
             "<strong>Fengxiaoxiao Li*</strong>, Xiao Mao*, Yifeng Zhang, Yi Li, et al. \"CAMO: A Scalable Neural Solver for the Multi-objective MTSP.\" <em>Submitted to 15th International Conference on Swarm Intelligence (ANTS)</em>, 2026."
+        ],
+
+        section_honors: "荣誉奖项",
+        honors_list: [
+            "<strong>一等奖</strong>, 第二届全国高等学校无人机类专业毕业设计大赛 (2025.06)",
+            "<strong>二等奖</strong>, 第六届全国高等学校航空航天类专业本科毕业设计大赛 (2025.05)",
+            "<strong>电子科技大学优秀学生奖学金</strong> (2022--2024) 及云汇专项奖学金 (Top 5%) (2023.10)",
+            "<strong>Distinction Winner</strong>, NTU AI Lab 暑期科研项目 (Top 2%) (2024.07)",
+            "<strong>全球前 15.6%</strong>, 第18届 IEEE Xtreme 极限编程大赛 (2024.10)",
+            "<strong>优秀毕业生荣誉</strong>: 创新/奋斗/贡献奖 (1/23) (2025.06)"
+        ],
+
+        section_skills: "技术技能",
+        skills_categories: [
+            { name: "编程语言", items: "Python, MATLAB, LaTeX, Markdown" },
+            { name: "控制与学习", items: "强化学习 (DQN, PPO, SAC, DDPG, A3C, MADDPG), 多智能体系统, 优化算法, 事件触发控制" },
+            { name: "工具框架", items: "MATLAB/Simulink, SolidWorks, Arduino, Altium, Keil uVision5, Git, Jupyter, PyCharm, VS Code, TensorFlow, PyTorch, Scikit-Learn, OpenCV" },
+            { name: "兴趣爱好", items: "乒乓球, 足球, 游泳, 跑步, 阅读 (AI/机器人/科幻), 魂类游戏" }
         ],
 
         btn_lang_en: "English",

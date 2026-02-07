@@ -48,8 +48,9 @@
                     <li><a href="#news" data-i18n="nav_news">News</a></li>
                     <li><a href="#publications" data-i18n="nav_publications">Publications</a></li>
                     <li><a href="#projects" data-i18n="nav_projects">Projects</a></li>
+                    <li><a href="#skills" data-i18n="nav_skills">Skills</a></li>
+                    <li><a href="#honors" data-i18n="nav_honors">Honors</a></li>
                     <li><a href="assets/Fengxiaoxiao_Li_CV.pdf" target="_blank" data-i18n="nav_cv">CV</a></li>
-
                 </ul>
             </nav>
 
@@ -133,21 +134,26 @@
                 </div>
             </section>
 
-            <!-- Honors section merged into News or kept separate? Keeping hidden if empty in JS, or we can populate it from News if desired. 
-                 For now, let's remove it if News covers it, or keep it as a summary list. 
-                 The user asked to "Sort news items... including award certificates". So News handles it.
-                 I will remove the separate Honors section node for simplicity, or keep it as duplicative summary. 
-                 Let's remove it and redirect nav to News. -->
+            <section id="honors" class="content-section">
+                <h2 data-i18n="section_honors">Honors & Awards</h2>
+                <div id="honors-list" class="honors-list">
+                    <!-- Loaded via JS -->
+                </div>
+            </section>
+
+            <section id="skills" class="content-section">
+                <h2 data-i18n="section_skills">Technical Skills</h2>
+                <div id="skills-list" class="skills-grid">
+                    <!-- Loaded via JS -->
+                </div>
+            </section>
+
             <div style="height: 50px;"></div>
         </main>
     </div>
 
     <script src="js/translations.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/translations.js"></script>
-    <script src="js/main.js"></script>
 </body>
-
-</html>
 
 </html>
