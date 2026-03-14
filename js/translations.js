@@ -66,7 +66,7 @@ const translations = {
                 period: "Aug 2025 - Mar 2026",
                 desc: "Advisor: Asst. Prof. Guillaume Sartoretti. Addressed the MOMTSP generalization challenge by proposing a DRL-based framework, CAMO. Innovated a Conditional Encoder and decoupled collaborative decoder. Outperformed baselines and validated deployment on a ROS-based mobile robot platform.",
                 tags: ["Deep RL", "Multi-Agent", "Optimization"],
-                image: "assets/images/project_camo.jpg" // Placeholder
+                image: "assets/images/project_camo.png"
             },
             {
                 title: "Formation Tracking with Neural Event-Triggered Control",
@@ -167,7 +167,7 @@ const translations = {
                 period: "2025.08 - 2026.03",
                 desc: "指导老师: Guillaume Sartoretti。针对 MOMTSP 泛化难题，提出 DRL-based 的框架 CAMO。设计条件编码器高效融合多目标偏好与实例信息，并首创解耦的协同解码器。实验显著优于启发式和 DRL 基线算法，并在基于 ROS 的移动机器人平台上证明了真机部署的有效性。",
                 tags: ["深度强化学习", "多智能体", "多目标优化"],
-                image: "assets/images/project_camo.jpg"
+                image: "assets/images/project_camo.png"
             },
             {
                 title: "基于神经事件触发控制的编队跟踪",
