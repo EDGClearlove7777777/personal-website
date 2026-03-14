@@ -68,7 +68,7 @@ robotic routing and task allocation.
     analysis, showing strong hypervolume and fast inference.
 
   -----------------------------------------------------------------------
-  **CAMO: Scalable Neural Solver for  Aug 2025 -- Nov 2025
+  **CAMO: Conditional Neural Solver for  Aug 2025 -- Nov 2025
   Multi-Objective MTSP (MOMTSP)** --- 
   NUS MARMot Lab                      
   ----------------------------------- -----------------------------------
@@ -140,7 +140,7 @@ ResNet/Random Forest/Logistic Regression.
 
 **PUBLICATIONS**
 
--   **Fengxiaoxiao Li\***, Xiao Mao\*, et al. "CAMO: A Scalable Neural
+-   **Fengxiaoxiao Li\***, Xiao Mao\*, Mingfeng Fan, et al. "CAMO: A Conditional Neural
     Solver for the Multi-objective MTSP." Submitted to the 15th
     International Conference on Swarm Intelligence (ANTS), 2026.
 

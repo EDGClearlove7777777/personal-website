@@ -36,7 +36,7 @@ const translations = {
 
         section_news: "News",
         news_items: [
-            { date: "2026", text: "Paper <strong>CAMO: A Scalable Neural Solver...</strong> submitted to ANTS 2026." },
+            { date: "2026", text: "Paper <strong>CAMO: A Conditional Neural Solver...</strong> submitted to IROS 2026." },
             {
                 date: "Jun 2025",
                 text: " awarded <strong>First Prize</strong> in National Graduation Design Competition for UAV Engineering (Top 2%).",
@@ -60,7 +60,7 @@ const translations = {
         section_projects: "Research Projects",
         projects_items: [
             {
-                title: "CAMO: Scalable Neural Solver for MOMTSP",
+                title: "CAMO: Conditional Neural Solver for MOMTSP",
                 period: "Aug 2025 - Present",
                 desc: "Advisor: Asst. Prof. Guillaume Sartoretti. Proposed a conditional encoder and decoupled dual decoder to achieve zero-shot generalization for multi-objective multi-traveling salesperson problems.",
                 tags: ["Deep Learning", "Multi-Agent", "Optimization"],
@@ -92,7 +92,7 @@ const translations = {
         section_publications: "Publications",
         publications_intro: "* denotes equal contribution.",
         publications_list: [
-            "<strong>Fengxiaoxiao Li*</strong>, Xiao Mao*, Yifeng Zhang, Yi Li, et al. \"CAMO: A Scalable Neural Solver for the Multi-objective MTSP.\" <em>Submitted to 15th International Conference on Swarm Intelligence (ANTS)</em>, 2026."
+            "<strong>Fengxiaoxiao Li*</strong>, Xiao Mao*, Mingfeng Fan, Yifeng Zhang, Yi Li, et al. \"CAMO: A Conditional Neural Solver for the Multi-objective MTSP.\" <em>Submitted to IEEE/RSJ International Conference on INTELLIGENT ROBOTS SYSTEMS (IROS)</em>, 2026."
         ],
 
         btn_lang_en: "English",
@@ -135,7 +135,7 @@ const translations = {
 
         section_news: "最新动态",
         news_items: [
-            { date: "2026", text: "论文 <strong>CAMO: A Scalable Neural Solver...</strong> 投稿至 ANTS 2026." },
+            { date: "2026", text: "论文 <strong>CAMO: A Conditional Neural Solver...</strong> 投稿至 IROS 2026." },
             {
                 date: "2025.06",
                 text: "获得第二届全国高等学校无人机类专业毕业设计大赛 <strong>一等奖</strong> (Top 2%).",
@@ -159,7 +159,7 @@ const translations = {
         section_projects: "科研项目",
         projects_items: [
             {
-                title: "CAMO: 面向 MOMTSP 的可扩展神经求解器",
+                title: "CAMO: 面向 MOMTSP 的条件神经求解器",
                 period: "2025.08 - 至今",
                 desc: "指导老师: Guillaume Sartoretti. 提出条件编码器和解耦双解码器，实现多目标多旅行商问题的零样本泛化。",
                 tags: ["深度学习", "多智能体", "优化算法"],
@@ -191,7 +191,7 @@ const translations = {
         section_publications: "发表论文",
         publications_intro: "* 代表共同一作.",
         publications_list: [
-            "<strong>Fengxiaoxiao Li*</strong>, Xiao Mao*, Yifeng Zhang, Yi Li, et al. \"CAMO: A Scalable Neural Solver for the Multi-objective MTSP.\" <em>Submitted to 15th International Conference on Swarm Intelligence (ANTS)</em>, 2026."
+            "<strong>Fengxiaoxiao Li*</strong>, Xiao Mao*, Mingfeng Fan, Yifeng Zhang, Yi Li, et al. \"CAMO: A Conditional Neural Solver for the Multi-objective MTSP.\" <em>Submitted to IEEE/RSJ International Conference on INTELLIGENT ROBOTS SYSTEMS (IROS)</em>, 2026."
         ],
 
         btn_lang_en: "English",

@@ -31,7 +31,7 @@ Laboratory](https://marmotlab.org/) 
 > National University of Singapore*
 
 -   Project Overview: Addressed the generalization challenge in
-    Multi-Objective MTSP by proposing CAMO, a general neural solver that
+    Multi-Objective MTSP by proposing CAMO, a conditional neural solver that
     achieves Zero-shot Generalization across arbitrary problem scales
     using a conditional attention mechanism
 
@@ -47,9 +47,9 @@ Laboratory](https://marmotlab.org/) 
     reducing inference time from hours to seconds with visualized Pareto
     Front analysis
 
--   **Publication:** Fengxiaoxiao Li\*, Xiao Mao\*, et al. *CAMO: A
-    Scalable Neural Solver for the Multi-objective MTSP*. Submitted to
-    the 15th International Conference on Swarm Intelligence (ANTS), 2026
+-   **Publication:** Fengxiaoxiao Li\*, Xiao Mao\*, Mingfeng Fan, et al. *CAMO: A
+    Conditional Neural Solver for the Multi-objective MTSP*. Submitted to
+    IEEE/RSJ International Conference on INTELLIGENT ROBOTS SYSTEMS (IROS), 2026
 
 > **Learning-Driven Optimization for the MOMTSP and MOHCVRP**
 > 08/2025-*Present*
