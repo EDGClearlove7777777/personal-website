@@ -64,8 +64,10 @@ robotic routing and task allocation.
 -   Implemented multi-agent RL with sparse rewards and transformer-based
     inter-agent communication for cooperative decision-making.
 
--   Evaluated against NSGA-III/MOEA baselines with Pareto-front
-    analysis, showing strong hypervolume and fast inference.
+-   Evaluated against heuristic baselines (e.g., NSGA-III/MOEA/D) and DRL
+    baselines (e.g., DRL-MOA, PMOCO, MO-PARCO) with Pareto-front
+    analysis, demonstrating the method's high efficiency, strong hypervolume,
+    and fast inference.
 
   -----------------------------------------------------------------------
   **CAMO: Conditional Neural Solver for  Aug 2025 -- Nov 2025
@@ -141,8 +143,8 @@ ResNet/Random Forest/Logistic Regression.
 **PUBLICATIONS**
 
 -   **Fengxiaoxiao Li\***, Xiao Mao\*, Mingfeng Fan, et al. "CAMO: A Conditional Neural
-    Solver for the Multi-objective MTSP." Submitted to the 15th
-    International Conference on Swarm Intelligence (ANTS), 2026.
+    Solver for the Multi-objective MTSP." Submitted to IEEE/RSJ
+    International Conference on INTELLIGENT ROBOTS SYSTEMS (IROS), 2026.
 
 **HONORS & AWARDS**
 

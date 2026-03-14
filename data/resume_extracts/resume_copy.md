@@ -75,8 +75,9 @@ Laboratory](https://marmotlab.org/) 
 
 -   Validated the superiority of the proposed method by visualizing the
     derived optimal policies on a Pareto front and conducting rigorous
-    comparative analysis against recognized industry baselines,
-    confirming the model\'s high performance and credibility
+    comparative analysis against heuristic baselines (e.g., NSGA-III/MOEA/D)
+    and DRL baselines (e.g., DRL-MOA, PMOCO, MO-PARCO), confirming the
+    model\'s high efficiency, strong hypervolume performance, and fast inference
 
 -   Pioneered the application of the PARCO framework to a
     multi-objective problem, demonstrating its robustness and
