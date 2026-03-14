@@ -15,7 +15,9 @@ const translations = {
         section_about: "About Me",
         about_text: `I am currently a Master's student at the <a href="https://cde.nus.edu.sg/me/" target="_blank">National University of Singapore (NUS)</a>, majoring in Mechanical Engineering. I am a member of the <a href="#" target="_blank">Multi-Agent Robotic Motion (MARMot) Laboratory</a>, advised by <a href="#" target="_blank">Asst. Prof. Guillaume Sartoretti</a>. 
         <br><br>
-        Previously, I received my B.Eng. degree in Aircraft Control and Information Engineering from <a href="https://en.uestc.edu.cn/" target="_blank">UESTC</a> in 2025, where I ranked <strong>4/22</strong> and was waived from the National Postgraduate Entrance Examination.`,
+        Previously, I received my B.Eng. degree in Aircraft Control and Information Engineering from <a href="https://en.uestc.edu.cn/" target="_blank">UESTC</a> in 2025, where I ranked <strong>4/22</strong> and was waived from the National Postgraduate Entrance Examination.
+        <br><br>
+        Currently, I am also delving into the field of <strong>Embodied AI</strong>. I firmly believe that this research direction has the potential to change the world.`,
 
         interests_title: "Research Interests",
         interests_list: [
@@ -114,7 +116,9 @@ const translations = {
         section_about: "个人简介",
         about_text: `我目前是<a href="https://cde.nus.edu.sg/me/" target="_blank">新加坡国立大学 (NUS)</a> 机械工程专业的硕士研究生。我是<a href="#" target="_blank">多智能体机器人运动 (MARMot) 实验室</a>的成员，师从 <a href="#" target="_blank">Guillaume Sartoretti 助理教授</a>。
         <br><br>
-        此前，我于2025年获得<a href="https://en.uestc.edu.cn/" target="_blank">电子科技大学 (UESTC)</a> 飞行器控制与信息工程学士学位，专业排名 <strong>4/22</strong>，并获得推免资格。`,
+        此前，我于2025年获得<a href="https://en.uestc.edu.cn/" target="_blank">电子科技大学 (UESTC)</a> 飞行器控制与信息工程学士学位，专业排名 <strong>4/22</strong>，并获得推免资格。
+        <br><br>
+        目前，我正在积极学习<strong>具身智能 (Embodied AI)</strong> 领域的相关知识，我坚信这一研究方向足以改变世界。`,
 
         interests_title: "研究兴趣",
         interests_list: [
