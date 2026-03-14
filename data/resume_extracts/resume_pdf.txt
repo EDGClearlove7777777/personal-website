@@ -8,16 +8,18 @@
 • 核心课程：飞行器通信网络基础 95 测控通信实验 94 智能飞行器协同创新实验 90
             基于4/5G的航空通信 91           数字系统实验 90 模拟电路分析与电子线路 91
  项目经历
-基于深度强化学习的 MOMTSP 通用求解器研究——新加坡国立大学ＭARMot实验室                                                     2025.06 – 至   今
+基于深度强化学习的多机器人系统多目标优化——新加坡国立大学 MARMot实验室 (科研助理)                      2025.08 – 2026.03
   指导老师：Asst. Prof. Guillaume Sartoretti, National University of Singapore
-• 项目概述：针对 MOMTSP 泛化难题，提出条件神经求解器 CAMO，基于条件注意力机制实现单一模型对任意规模问
+• 项目概述：针对 MOMTSP 泛化难题，提出DRL-based的框架 CAMO，基于条件注意力机制实现单一模型对多种规模问
   题的零样本泛化 (Zero-shot Generalization)。
-• 核心贡献：(1) 架构设计：提出 Conditional Encoder 高效融合多目标偏好；首创解耦的 Agent/Node-selection 双重解
-  码器，打破输入维度限制，赋予模型在未见规模下的双重可扩展性。(2) 性能突破：改进 REINFORCE 算法与动态采样
-  策略。实验表明在多维度算例下 Hypervolume 显著优于 NSGA-III/MOEA/D 等基线,推理速度从传统小时(h)级缩短为
-  秒(s)级，所取得的比较、泛化和消融实验结果皆可视化为二维帕累托前沿进行比较。
+• 核心贡献：(1) 架构设计：提出 Conditional Encoder 高效融合多目标偏好与实例信息，并使用门控聚合代替残差连
+  接；首创解耦的 Agent/Node-selection 协同解码器，打破输入维度限制，赋予模型在未见规模下的双重可扩展性。
+  (2) 性能突破：改进 REINFORCE 算法与动态采样策略。实验表明在多维度算例下我们的方法 CAMO 显著优于
+  NSGA-III/MOEA/D 等启发式基线和以MO-PARCO为例的DRL基线，推理速度从传统小时(h)级缩短为秒(s)级，所取得
+  的比较、泛化、消融和benchmark实验结果皆可视化为二维帕累托前沿进行比较。同时在基于ROS的移动机器人平
+  台进行的真机实验证明了我们模型在本地真机部署的有效性和实用性。
 • 论文成果：[1] Fengxiaoxiao Li*, Xiao Mao*, Mingfeng Fan, Yifeng Zhang, Yi Li, et al. CAMO: A Conditional Neural Solver for the Multi-
-  objective MTSP. Submitted to 15th International Conference on Swarm Intelligence (ANTS), 2026.
+  objective MTSP. Submitted to IEEE/RSJ International Conference on INTELLIGENT ROBOTS SYSTEMS (IROS), 2026.
 基于深度学习的肺炎医学图像分类——NTU Business AI-Lab (负责组长)                2024.07 – 2024.10
   指导老师：Dr. Tech Teik Toe, Nanyang Technological University
 • 项目概述：针对已有医学图像数据，搭建神经网络对数据进行训练，实现对肺炎图像的特征提取与图像分类。

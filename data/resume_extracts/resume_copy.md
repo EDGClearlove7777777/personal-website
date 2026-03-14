@@ -23,29 +23,28 @@ Laboratory](https://marmotlab.org/) 
 
 **Academic Experience**
 
-> **Scalable Neural Solver for MOMTSP via Deep Reinforcement Learning**
-> 08/2025-11/2025
+> **Multi-Objective Optimization for Multi-Robot Systems based on Deep Reinforcement Learning (CAMO)**
+> 08/2025-03/2026
 >
-> *Advisor: Asst. Prof. [Guillaume
+> *Advisor: Asst. Prof. [Guillaume
 > Sartoretti](https://cde.nus.edu.sg/me/staff/sartoretti-guillaume-a/),
 > National University of Singapore*
 
--   Project Overview: Addressed the generalization challenge in
-    Multi-Objective MTSP by proposing CAMO, a conditional neural solver that
-    achieves Zero-shot Generalization across arbitrary problem scales
-    using a conditional attention mechanism
+-   **Project Overview:** Addressed the MOMTSP generalization challenge
+    by proposing a DRL-based framework, CAMO, achieving Zero-shot
+    Generalization to various problem scales via conditional attention mechanisms
 
--   Architecture Design: Innovated a Conditional Encoder to efficiently
-    fuse multi-objective preferences and pioneered a decoupled
-    Agent/Node-selection Dual Decoder. This architecture breaks input
-    dimension constraints, enabling dual scalability on unseen problem
-    sizes
+-   **Architecture Design:** Proposed a Conditional Encoder to efficiently
+    fuse multi-objective preferences and instance information, replacing
+    residual connections with gated aggregation. Pioneered a decoupled
+    Agent/Node-selection collaborative decoder to break input
+    dimension constraints and bestow dual scalability
 
--   Performance Optimization: Enhanced the REINFORCE algorithm with a
-    dynamic sampling strategy. Experiments demonstrated superior
-    Hypervolume performance compared to baselines (NSGA-III, MOEA/D),
-    reducing inference time from hours to seconds with visualized Pareto
-    Front analysis
+-   **Performance Breakthrough:** Improved the REINFORCE algorithm and a
+    dynamic sampling strategy. Outperformed heuristic baselines
+    (NSGA-III/MOEA/D) and DRL baselines (MO-PARCO) across multi-dimensional
+    instances, reducing inference time from hours to seconds. Validated
+    practical deployment viability on a ROS-based mobile robot platform
 
 -   **Publication:** Fengxiaoxiao Li\*, Xiao Mao\*, Mingfeng Fan, et al. *CAMO: A
     Conditional Neural Solver for the Multi-objective MTSP*. Submitted to

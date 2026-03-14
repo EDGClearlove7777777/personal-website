@@ -62,10 +62,10 @@ const translations = {
         section_projects: "Research Projects",
         projects_items: [
             {
-                title: "CAMO: Conditional Neural Solver for MOMTSP",
-                period: "Aug 2025 - Present",
-                desc: "Advisor: Asst. Prof. Guillaume Sartoretti. Proposed a conditional encoder and decoupled dual decoder to achieve zero-shot generalization for multi-objective multi-traveling salesperson problems.",
-                tags: ["Deep Learning", "Multi-Agent", "Optimization"],
+                title: "Multi-Objective Optimization for Multi-Robot Systems based on DRL (CAMO)",
+                period: "Aug 2025 - Mar 2026",
+                desc: "Advisor: Asst. Prof. Guillaume Sartoretti. Addressed the MOMTSP generalization challenge by proposing a DRL-based framework, CAMO. Innovated a Conditional Encoder and decoupled collaborative decoder. Outperformed baselines and validated deployment on a ROS-based mobile robot platform.",
+                tags: ["Deep RL", "Multi-Agent", "Optimization"],
                 image: "assets/images/project_camo.jpg" // Placeholder
             },
             {
@@ -163,10 +163,10 @@ const translations = {
         section_projects: "科研项目",
         projects_items: [
             {
-                title: "CAMO: 面向 MOMTSP 的条件神经求解器",
-                period: "2025.08 - 至今",
-                desc: "指导老师: Guillaume Sartoretti. 提出条件编码器和解耦双解码器，实现多目标多旅行商问题的零样本泛化。",
-                tags: ["深度学习", "多智能体", "优化算法"],
+                title: "基于深度强化学习的多机器人系统多目标优化 (CAMO)",
+                period: "2025.08 - 2026.03",
+                desc: "指导老师: Guillaume Sartoretti。针对 MOMTSP 泛化难题，提出 DRL-based 的框架 CAMO。设计条件编码器高效融合多目标偏好与实例信息，并首创解耦的协同解码器。实验显著优于启发式和 DRL 基线算法，并在基于 ROS 的移动机器人平台上证明了真机部署的有效性。",
+                tags: ["深度强化学习", "多智能体", "多目标优化"],
                 image: "assets/images/project_camo.jpg"
             },
             {
