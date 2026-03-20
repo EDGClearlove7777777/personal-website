@@ -194,10 +194,20 @@
                         <div class="pub-links">
                             <!-- Placeholders for links -->
                             <a href="https://arxiv.org/abs/2603.19074" class="pub-btn" target="_blank">ABS</a>
-                            <a href="assets/camo.bib" class="pub-btn" target="_blank">BIB</a>
+                            <a href="javascript:void(0)" class="pub-btn" onclick="toggleBib('bib-camo')">BIB</a>
                             <a href="https://arxiv.org/pdf/2603.19074" class="pub-btn" target="_blank">PDF</a>
                             <a href="assets/Robot_Validation_IROS_Video.mp4" class="pub-btn" target="_blank">VIDEO</a>
                             <span class="tag pending">Under Review</span>
+                        </div>
+                        <div id="bib-camo" class="bibtex-block" style="display: none;">
+<pre><code><span class="bib-type">@misc</span>{<span class="bib-id">li2026camo</span>,
+      <span class="bib-key">title</span> = <span class="bib-val">{CAMO: A Conditional Neural Solver for the Multi-objective Multiple Traveling Salesman Problem}</span>,
+      <span class="bib-key">author</span> = <span class="bib-val">{Fengxiaoxiao Li and Xiao Mao and Mingfeng Fan and Yifeng Zhang and Yi Li}</span>,
+      <span class="bib-key">year</span> = <span class="bib-val">{2026}</span>,
+      <span class="bib-key">eprint</span> = <span class="bib-val">{2603.19074}</span>,
+      <span class="bib-key">archivePrefix</span> = <span class="bib-val">{arXiv}</span>,
+      <span class="bib-key">primaryClass</span> = <span class="bib-val">{cs.RO}</span>
+}</code></pre>
                         </div>
                         <p class="pub-abstract">
                             Proposed a DRL-based framework CAMO for MOMTSP, achieving zero-shot generalization to various problem scales via conditional attention mechanisms and a decoupled collaborative decoder. Replaced the traditional hours-long inference time with seconds-level real-time reasoning while outperforming heuristic baselines (NSGA-III/MOEA/D) and DRL baselines (MO-PARCO).

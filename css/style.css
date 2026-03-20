@@ -359,6 +359,39 @@ strong {
     text-decoration: none;
 }
 
+.bibtex-block {
+    margin-top: 1rem;
+    background-color: #fdf6f9;
+    padding: 1rem;
+    border-radius: 6px;
+    overflow-x: auto;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+
+.bibtex-block pre {
+    margin: 0;
+}
+
+.bibtex-block .bib-type {
+    color: #3b5998;
+    font-weight: bold;
+}
+
+.bibtex-block .bib-id {
+    color: #a00;
+    font-weight: bold;
+}
+
+.bibtex-block .bib-key {
+    color: #008080;
+}
+
+.bibtex-block .bib-val {
+    color: #d14;
+}
+
 .pub-abstract {
     margin-top: 0.8rem;
     font-size: 0.9rem;

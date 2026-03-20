@@ -124,3 +124,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initial Render
     updateContent(currentLang);
 });
+
+window.toggleBib = function(id) {
+    const bibBlock = document.getElementById(id);
+    if (bibBlock) {
+        if (bibBlock.style.display === 'none' || bibBlock.style.display === '') {
+            bibBlock.style.display = 'block';
+        } else {
+            bibBlock.style.display = 'none';
+        }
+    }
+};
